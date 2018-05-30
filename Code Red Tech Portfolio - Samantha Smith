@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      
+     
+    <title>Hello World!</title>
+
+    <!-- Bootstrap core CSS -->
+      
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<h1>Code Red Tech.Samantha Smith
+      </h1>
+      <strong><p>delivering distinguished web & app development for clients around the globe</p></strong>
+      <p>our mission is to use technology bring your ideas to life with a thoughtful human approach.</p>
+
+    <!-- Custom styles for this template go here -->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>CareerFoundry Template</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+
+      </div><!-- /container -->
+    </div><!-- /jumbotron -->
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Portfolio Concept</h2>
+          <p>take a few minutes to think about your portfolio site and outline the content you want to include. If you already have some web development experience and prior projects, this is the opportunity to highlight them. If you have work from another industry, you can provide those as examples of your professional experience, as well. If you have any design elements in mind, you can also record these.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Project Goals</h2>
+          <p>include any details about deadlines you want to meet and time you can commit each week.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Course Goals</h2>
+          <p> write down your professional learning goals. Are you changing careers or advancing your existing skill set? Do you want to become a freelancer after this course or get hired as an entry level developer? Your course goals will be tied closely to your project goals.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /col -->
+      </div><!-- /row -->
+
+      <hr>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+
+    <!-- Bootstrap core JS -->
+
+    <!-- Can place script tags with JavaScript files here -->
+
+  </body>
+</html>

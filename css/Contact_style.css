@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: century gothic, geneva, serif;
+    font color: red;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+p {
+    font-family: century gothic, geneva, serif;
+    text-align: center;
+}
+
+.email, .phone {
+    text-align: center;
+}
+
+.phone {
+    padding-bottom: 40px;
+}
+
+/***
+.image img {
+  background-size: cover;
+}
+***/
+
+.image {
+ text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px 10px 10px;
+    float: right;
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+   
+.nav ul li a {
+    color: ghostwhite;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    -webkit-transition: color 600ms;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+
+
+#contact{
+    background-image: url("../img/code4.png");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:100px;
+    padding-top: 50px;
+    height: 400px;
+}
