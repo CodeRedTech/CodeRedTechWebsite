@@ -1,25 +1,7 @@
 //twitter
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
-var works = [
-  {
-    title: "Carmen Meadows Website",
-    pic: "http://wrestler-inclination-16121.bitballoon.com/img2/car1.jpg"
-  },
-  {
-    title: "Web Calculator",
-    pic: "http://infallible-dijkstra-74bd9a.bitballoon.com/img/calculator.png"
 
-  },
-  {
-    title: "Third Project",
-    pic: "http://www.coderedtech.net/img/codingpx.jpg"
-  },
-  {
-    title: "Fourth Project",
-    pic: "http://www.coderedtech.net/img/codingpx.jpg"
-  }
-];
 
 $(document).ready(function(){
   // Smooth scrolling
@@ -56,7 +38,7 @@ $(document).ready(function(){
     else { $('comment').hide();
     };
 
-    return false;
+    return true;
   });
 
   //character count
@@ -75,12 +57,15 @@ $(document).ready(function(){
   for(var i = 0; i < works.length; ++i ) {
     $("#work").append("\
     <div class='col-sm-6 col-md-3'>\
-    <a href='#' class='work-img'>\
-    <img class='img-responsive' src='" + works[i].pic + "'>\
-    <span class='info'><p class='proj-title'>Title:</p> [WORK TITLE] </span>\
-  </div>\
-");
-  };
+      <a href='" + works[i].url +"' class='work-img'>\
+        <img class='img-responsive' src='" + works[i].pic + "'>\
+        <span class='info'>\
+          <p class="proj-title">" + works[i].title + "</p>\ 
+        </span>\ 
+      </a>\
+    </div>\
+    ")
+  }
 
   $(".work-img").mouseenter( function() {
     $(".info", this).show();
