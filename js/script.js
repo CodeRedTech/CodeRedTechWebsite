@@ -54,32 +54,29 @@ $(document).ready(function(){
   });
 
   // work section
-  for(var i = 0; i < works.length; ++i ) {
+  for(var i = 0; i < works.length; i++ ){
     $("#work").append("\
     <div class='col-sm-6 col-md-3'>\
-      <a href='" + works[i].url +"' class='work-img'>\
+      <a href='"+ works[i].link +"' class='work-img' target='_blank'>\
         <img class='img-responsive' src='" + works[i].pic + "'>\
-        <span class='info'>\
-          <p class="proj-title">" + works[i].title + "</p>\ 
-        </span>\ 
+        <span class='info'><p class='proj-title'>Title:</p> " + works[i].title + "</span>\
       </a>\
     </div>\
-    ")
-  }
-
-  $(".work-img").mouseenter( function() {
-    $(".info", this).show();
-  }).mouseleave(function(){
-    $(".info", this).hide();
-  });
-
-  var images = $("#work img");
-  console.log(images); //checking code
-
-  if(i%2 === 0){
-    $(images[i]).css("border", "3px solid DodgerBlue");
-  } else {
-    $(images[i]).css("border", "3px solid salmon")
+    ");
+    
+    var images = $("#work img");
+    
+    if(i%2 === 0) {
+        $(images[i]).css("border", "2px solid DodgerBlue");
+    } else {
+        $(images[i]).css("border", "2px solid Salmon");
+    };
+    
+    $(".work-img").mouseenter(function(){
+      $(".info", this).show();
+    }).mouseleave(function(){
+      $(".info", this).hide();
+    });
   };
 
   var map;
